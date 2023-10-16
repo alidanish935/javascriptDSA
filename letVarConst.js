@@ -1,23 +1,14 @@
-
-
-
-let arr=[];
-
-const getArr=()=>{
-    console.log('arrr start - ',arr)
+{
+    var a=10;
+    let b=20;
+    const c=30;
+    console.log(a)
+    console.log(b)
+    console.log(c)
 }
+    console.log(a)
+    console.log(b)//we get error b is not defined bcz let and const are blocked level so we can't access in global
+    console.log(c)
 
-const addfn =()=>{
-    arr.push(1234);
-    console.log("arr--",arr)//1234
-}
-console.log("arr22--",arr)//[]
-const callFn=()=>{
-
-    addfn()
-    console.log("arr33--",arr)//1234
-}
-console.log("arr44--",arr)//[]
-callFn()
-getArr()
-console.log("arr55--",arr)//1234
+    // block { } it is used to combined multiple j.s statement where j.s expect single line statement
+    

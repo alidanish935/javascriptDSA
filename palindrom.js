@@ -1,6 +1,8 @@
 const str = "Text contains malayalam and level words"
 
 let arr = str.split(" ")
+// let arr = [...str]
+console.log(arr,'spread---')
 let ans=[];
 let k=0;
 for (let i = 0; i < arr.length; i++) {
