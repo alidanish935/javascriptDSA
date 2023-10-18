@@ -1,4 +1,4 @@
-// Hoisting is a concept that enable us to extract the value of variable and func even before its initialisation.
+// Hoisting is a concept that enable us to extract the value of variable and func even before its declaration.
 
 console.log(x)
 abc()

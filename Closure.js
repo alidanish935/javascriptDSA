@@ -1,13 +1,36 @@
-function x(){
-    var a=4
-    function y(){
-        console.log(a)
+// function x(){
+//     var a=4
+//     function y(){
+//         console.log(a)
+//     }
+//      return y
+// }
+//  var a =x();
+// //  let a=10
+// a()
+
+
+// // here we can access count variable any where in code but if create closure (illustrated below)
+// var count = 0;
+
+// function increamentCounter(){
+//     count++;
+// }
+// increamentCounter()
+// console.log(count)
+
+function counter(){
+    var count = 0;
+
+    function increamentCounter(){
+        count++;
+        console.log(count)
     }
-     return y
+ return increamentCounter
 }
- var a =x();
-//  let a=10
-a()
+
+//console.log(count) due to closure we cant access count here
+counter()()
  
 
 
