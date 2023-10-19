@@ -12,3 +12,4 @@ function chunkArray(arr, n) {
   const result = chunkArray(inputArray, chunkSize);
   console.log(result);
   
+  
