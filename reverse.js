@@ -53,9 +53,11 @@
 ///--------------------------------------------------------------------------
 
 
-let str =  "i lovE My inDiA";//I LOVe mY INdIa
-let arr= str.split("")
-for(let i=0;i<str.length;i++)[
+// let str =  "i lovE My inDiA";//I LOVe mY INdIa
+// let arr= str.split("")
+// for(let i=0;i<str.length;i++)[
    
-]
-console.log(arr)
+// ]
+// console.log(arr)
+var x=12;
+console.log(globalThis.x)
