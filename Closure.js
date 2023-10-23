@@ -19,20 +19,44 @@
 // increamentCounter()
 // console.log(count)
 
-function counter(){
-    var count = 0;
+// function counter(){
+//     var count = 0;
 
-    function increamentCounter(){
+//     function increamentCounter(){
+//         count++;
+//         console.log(count)
+//     }
+//  return increamentCounter
+// }
+
+// //console.log(count) due to closure we cant access count here
+// counter()()
+
+function Counter(){
+    var count = 0;
+    this.increaseCounter = function(){
         count++;
         console.log(count)
     }
- return increamentCounter
+    this.decreaseCounter = function(){
+        count--;
+        console.log(count)
+    }
 }
-
-//console.log(count) due to closure we cant access count here
-counter()()
+var counter1 = new Counter()
+counter1.increaseCounter()
+counter1.increaseCounter()
+counter1.decreaseCounter()
  
 
+// function a(){
+//     var x=19;
+//     function b(){
+//         console.log(x)
+//     }
+//     return b
+// }
+// a()()
 
 
 
@@ -72,20 +96,6 @@ counter()()
 // }
 // // var resp=abc(5);
 // // console.log(resp(4));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
