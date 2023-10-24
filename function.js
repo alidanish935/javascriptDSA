@@ -50,4 +50,5 @@ let a = function(){
     }
     return c
 }
+
 console.log(a())
