@@ -22,6 +22,7 @@ const diameter = function(val){
     return 2*val
 }
 
+
 const calculate = function(radius,operation){
     let output = [];
     for(let i=0;i<radius.length;i++){
