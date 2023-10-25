@@ -6,5 +6,5 @@ let s = "Hello how are you Contestant", k = 4
 // Hence, you should return "Hello how are you".
 
 let arr = s.split(" ")
-let res = arr.slice(0,4).join(" ")
+let res = arr.slice(0,k).join(" ")
 console.log(res)
