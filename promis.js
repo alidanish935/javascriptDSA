@@ -11,6 +11,7 @@ function prom(status){
 }
 
 
+
 // console.log(prom(true))
 // console.log(prom(false))
 const promis = fetch("https://whatsup-server.onrender.com/users")
