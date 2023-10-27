@@ -47,16 +47,27 @@
 // prom.catch(err=>console.log(err.message))
 // console.log(prom)
 
-function promis(status){
-    const prms = new Promise((resolve,reject)=>{
-        if(status){
-            resolve('i am resolve')
-        }else{
-            reject('i am rejected')
-        }
-    })
-    return prms
-}
-let res = promis(!true)
-res.then(x=>console.log(x))
-res.catch(err=>console.log(err))
+// function promis(status){
+//     const prms = new Promise((resolve,reject)=>{
+//         if(status){
+//             resolve('i am resolve')
+//         }else{
+//             reject('i am rejected')
+//         }
+//     })
+//     return prms
+// }
+// let res = promis(!true)
+// res.then(x=>console.log(x))
+// res.catch(err=>console.log(err))
+
+
+const promis = new Promise((resolve,reject)=>{
+    if(!true){
+        resolve('i am success----')
+    }else{
+        reject('rejected-----')
+    }
+})
+promis.then(x=>console.log(x))
+promis.catch(err=>console.log(err))
