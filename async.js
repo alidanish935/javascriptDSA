@@ -114,3 +114,27 @@
 
 // example 3
 
+let pr1 = new Promise(function(resolve,reject){
+    setTimeout(()=>{
+
+        resolve('resolved-1')
+    },8000)
+})
+let pr2 = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve('resolved-2')
+    },5000)
+})
+
+const handlingUsingAsync=async()=>{
+    let res = await pr1
+    console.log('danish-1')
+    console.log(res)
+
+
+    let res2 = await pr2
+    console.log('danish-2')
+    console.log(res2)
+}
+handlingUsingAsync()
+
