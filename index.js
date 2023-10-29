@@ -202,9 +202,6 @@ let promi = new Promise(function(resolve,reject){
 
 
 
-
-
-
 // function area(arr){
 //     let output = [];
 //     for(let i=0;i<arr.length;i++){
