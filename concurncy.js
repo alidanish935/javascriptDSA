@@ -2,22 +2,22 @@
 // take 10sec to execute .so in this case setTimeout will execute after 10sec bcz main thread was busy on executing code present in 
 //Global Execution Context and in the mean-while setTimeout will be waiting on callback queue,this is known as concurrency in js .
 
-// console.log('start--')
+console.log('start--')
 
-// setTimeout(function(){
-//     console.log('callback--')
-// },5000)
+setTimeout(function(){
+    console.log('callback--')
+},5000)
 
-// console.log('end')
+console.log('end')
 
-// let startdate = new Date().getTime()
-// let endDate = startdate
-// while(endDate<=startdate+7000){
+let startdate = new Date().getTime()
+let endDate = startdate
+while(endDate<=startdate+7000){
     
-//     endDate = new Date().getTime()
+    endDate = new Date().getTime()
 
-// }
-// console.log('concurrency----')
+}
+console.log('concurrency----')
 // output will be first -> start --> end --> (after 7sec) concurrency --> callback  
 // callback will print in last as our main thread was busy on while loop for 7sec 
 
