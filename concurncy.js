@@ -16,7 +16,6 @@ while(endDate<=startdate+7000){
     
     endDate = new Date().getTime()
 
-
 }
 console.log('concurrency----')
 // output will be first -> start --> end --> (after 7sec) concurrency --> callback  
