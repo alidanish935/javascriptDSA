@@ -16,6 +16,7 @@
 // -------------------------example 2--------------------------
 
 
+
 // let p = new Promise((resolve,reject)=>{
 //     if(true){
 //         resolve(' resolved')
