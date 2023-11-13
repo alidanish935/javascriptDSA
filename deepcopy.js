@@ -69,3 +69,4 @@ newObj2.address.city = "delhi"  // city won't change to delhi
 
 console.log(obj)
 // console.log(obj2)
+
