@@ -132,15 +132,15 @@ let promi = new Promise(function(resolve,reject){
 
 
 
- async function ab(){
-    let pr = await await promi
-    console.log(pr)
-    setTimeout(()=>{
+//  async function ab(){
+//     let pr = await await promi
+//     console.log(pr)
+//     setTimeout(()=>{
         
-        console.log('danish')
-    },8000)
- }
- ab()
+//         console.log('danish')
+//     },8000)
+//  }
+//  ab()
 
         // function abc(){
         //     promi.then(x=>console.log(x))
@@ -151,19 +151,19 @@ let promi = new Promise(function(resolve,reject){
 
 
 
-        setTimeout(()=>{
+        // setTimeout(()=>{
         
-            console.log('danish')
-        },5000)
+        //     console.log('danish')
+        // },5000)
 
-        let startTime = new Date().getTime()
+        // let startTime = new Date().getTime()
 
-        let endTime = startTime
+        // let endTime = startTime
 
-        while(startTime<=endTime+10000){
-            endTime=new Date().getTime()
-        }
-        console.log('concurrency-')
+        // while(startTime<=endTime+10000){
+        //     endTime=new Date().getTime()
+        // }
+        // console.log('concurrency-')
 
 
 
@@ -224,3 +224,10 @@ let promi = new Promise(function(resolve,reject){
 // console.log(area(arr))
 // console.log(diameter(arr))
 // console.log(circum(arr))
+
+const a=[1,2,3]
+
+// console.log(...a,...a)
+
+a.push.call(a,...a)
+console.log(a)
