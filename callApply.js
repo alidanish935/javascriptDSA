@@ -22,6 +22,7 @@ const name={
     firstName:"danish",
     lastName:"ali"
 }
+
 const name2={
     firstName:"Aliza",
     lastName:"falak"
