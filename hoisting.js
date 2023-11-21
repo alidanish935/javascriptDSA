@@ -1,8 +1,8 @@
 // Hoisting is a concept that enable us to extract the value of variable and func even before its declaration.
 
-console.log(x)
+console.log(x)// here it will give undefined  
 abc()
-ab()
+// ab()
 function abc(){
     console.log('hoisting---')
 }

@@ -171,7 +171,6 @@ let promi = new Promise(function(resolve,reject){
 
 
 
-
 // const area = (radius)=>{
 //     return Math.PI*radius*radius
 // }
@@ -225,9 +224,9 @@ let promi = new Promise(function(resolve,reject){
 // console.log(diameter(arr))
 // console.log(circum(arr))
 
-const a=[1,2,3]
+// const a=[1,2,3]
 
-// console.log(...a,...a)
+// // console.log(...a,...a)
 
-a.push.call(a,...a)
-console.log(a)
+// a.push.call(a,...a)
+console.log(true+3);
