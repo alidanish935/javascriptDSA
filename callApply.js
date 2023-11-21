@@ -51,6 +51,9 @@ printFullName.call(name2)
 
 
 
+
+
+
 // const name={
 //     firstname:'danish',
 //     lastname:'ali'
