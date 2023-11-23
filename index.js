@@ -114,16 +114,36 @@
 // promiseFn().then(x=>console.log(x)).catch(err=>console.log(err))
 
 
+const promis = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+
+        return resolve('resolved----')
+    },3000)
+})
+
+function abc(){
+    
+    let p =  promis
+    console.log(p)
+    setTimeout(()=>{
+
+        console.log('hiiiiiiii')
+        
+        console.log('p------',p)
+    },3000)
+    console.log(p)
+
+}
+abc()
 
 
 
 
-
-let promi = new Promise(function(resolve,reject){
-            setTimeout(()=>{
-                resolve('resolved--')
-            },4000)          
-        })
+// let promi = new Promise(function(resolve,reject){
+//             setTimeout(()=>{
+//                 resolve('resolved--')
+//             },4000)          
+//         })
 // let promi2 = new Promise(function(resolve,reject){
 //             setTimeout(()=>{
 //                 resolve('resolved--')
@@ -171,7 +191,7 @@ let promi = new Promise(function(resolve,reject){
 
 
 
-        
+
 // const area = (radius)=>{
 //     return Math.PI*radius*radius
 // }
@@ -230,4 +250,5 @@ let promi = new Promise(function(resolve,reject){
 // // console.log(...a,...a)
 
 // a.push.call(a,...a)
-console.log(true+3);
+// console.log(true+3);
+
