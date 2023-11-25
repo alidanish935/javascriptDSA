@@ -16,6 +16,7 @@ let calculateMultiplication=(values)=>{
     return mul
 }
 
+
 // console.log(calculateSum(values))
 //console.log(calculateMultiplication(values))
 
