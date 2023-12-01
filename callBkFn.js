@@ -1,12 +1,14 @@
 // A function which is passed inside another fn as an argument is known as callback function.
-// function abc(name,callback){
-//     console.log('hiii','---',name)
-//     callback()
-// }
-// function xyz(){
-//     console.log('calling callback')
-// }
-// abc('danish',xyz)
+function abc(name,callback){
+    console.log('hiii','---',name)
+    callback()
+}
+function xyz(){
+    console.log('calling callback')
+}
+abc('danish',xyz)
+
+
 
 
 // //------------------------------call back as setTimeOut
