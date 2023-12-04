@@ -11,6 +11,8 @@ abc('danish',xyz)
 
 
 
+
+
 // //------------------------------call back as setTimeOut
 // setTimeout(function (){
 //     console.log('hii there--')
